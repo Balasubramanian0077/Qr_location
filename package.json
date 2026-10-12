@@ -1,0 +1,13 @@
+{
+  "name": "qr-location-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix front-end run build",
+    "build:frontend": "npm --prefix front-end run build",
+    "build:backend": "npm --prefix backend run build",
+    "build:all": "npm --prefix backend run build && npm --prefix front-end run build",
+    "start:frontend": "npm --prefix front-end run dev",
+    "start:backend": "npm --prefix backend run start"
+  }
+}

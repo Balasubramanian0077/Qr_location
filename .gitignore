@@ -1,0 +1,8 @@
+/node_modules
+**/node_modules
+/front-end/node_modules
+/backendend/node_modules
+
+
+.env
+**/.env
